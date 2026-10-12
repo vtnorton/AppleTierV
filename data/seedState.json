@@ -80,15 +80,15 @@
       "id": "thats-why-i-pay-apple-tv",
       "name": "That's Why I Pay Apple TV",
       "color": "#f59e0b",
-      "itemIds": [
-        1029575
-      ]
+      "itemIds": []
     },
     {
       "id": "good-but-doesnt-look-apple-tv",
       "name": "Good, But Doesn't Look Apple TV",
       "color": "#22c55e",
-      "itemIds": []
+      "itemIds": [
+        1029575
+      ]
     },
     {
       "id": "good-but-not-memorable",

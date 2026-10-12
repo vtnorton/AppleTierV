@@ -80,15 +80,15 @@
       "id": "thats-why-i-pay-apple-tv",
       "name": "That's Why I Pay Apple TV",
       "color": "#f59e0b",
-      "items": [
-        "The Family Plan"
-      ]
+      "items": []
     },
     {
       "id": "good-but-doesnt-look-apple-tv",
       "name": "Good, But Doesn't Look Apple TV",
       "color": "#22c55e",
-      "items": []
+      "items": [
+        "The Family Plan"
+      ]
     },
     {
       "id": "good-but-not-memorable",
