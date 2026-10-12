@@ -1,0 +1,30 @@
+{
+  "name": "appletv-tierlist",
+  "version": "1.0.0",
+  "description": "Rank every Apple TV+ show and movie you've watched into a tier list — no backend, no account, just your browser.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run scripts/devServer.ts",
+    "typecheck": "tsc --noEmit",
+    "add": "bun run scripts/addTitle.ts",
+    "build:catalog": "bun run scripts/buildCatalog.ts",
+    "build:js": "bun build src/app/seriesPage.ts src/app/moviesPage.ts --outdir dist --target browser --format iife --env='TMDB_*'",
+    "build:es5": "bun run scripts/downlevelToEs5.ts",
+    "build:css": "bunx sass src/styles/tierlist.scss dist/tierlist.css --no-source-map",
+    "build": "bun run typecheck && bun run build:js && bun run build:es5 && bun run build:css",
+    "render": "bun run build:js && bun run build:es5 && node scripts/agentRender.ts",
+    "test": "bun test src",
+    "test:e2e": "node node_modules/@playwright/test/cli.js test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/bun": "^1.1.0",
+    "core-js-bundle": "^3.50.0",
+    "sass": "^1.79.0",
+    "typescript": "^5.6.0"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
+}

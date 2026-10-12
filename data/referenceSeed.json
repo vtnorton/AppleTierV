@@ -1,0 +1,117 @@
+{
+  "series": [
+    {
+      "id": "absolute-cinema",
+      "name": "Absolute Cinema",
+      "color": "#d53030",
+      "items": [
+        "The Studio",
+        "Severance",
+        "Pluribus",
+        "Slow Horses"
+      ]
+    },
+    {
+      "id": "made-my-friend-watch",
+      "name": "Made My Friend Watch",
+      "color": "#f59e0b",
+      "items": [
+        "Silo",
+        "Mythic Quest",
+        "Widow's Bay",
+        "Maximum Pleasure Guaranteed"
+      ]
+    },
+    {
+      "id": "you-should-watch-it",
+      "name": "You Should Watch It",
+      "color": "#22c55e",
+      "items": [
+        "The Morning Show",
+        "Shrinking",
+        "Margo's Got Money Troubles"
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral",
+      "color": "#6b7280",
+      "items": [
+        "Side Quest",
+        "Ted Lasso",
+        "Lucky",
+        "Imperfect Women"
+      ]
+    },
+    {
+      "id": "good-for-any-other-stream",
+      "name": "It's Good, For Any Other Stream",
+      "color": "#3b82f6",
+      "items": [
+        "Trying"
+      ]
+    },
+    {
+      "id": "cool-but-not-for-me",
+      "name": "Cool But Not For Me",
+      "color": "#8b5cf6",
+      "items": [
+        "Time Bandits"
+      ]
+    },
+    {
+      "id": "why-i-watched-this",
+      "name": "Why I Watched This",
+      "color": "#ef4444",
+      "items": []
+    }
+  ],
+  "movies": [
+    {
+      "id": "watch-on-the-theater",
+      "name": "Watch On The Theater",
+      "color": "#d53030",
+      "items": [
+        "F1",
+        "Killers of the Flower Moon"
+      ]
+    },
+    {
+      "id": "thats-why-i-pay-apple-tv",
+      "name": "That's Why I Pay Apple TV",
+      "color": "#f59e0b",
+      "items": [
+        "The Family Plan"
+      ]
+    },
+    {
+      "id": "good-but-doesnt-look-apple-tv",
+      "name": "Good, But Doesn't Look Apple TV",
+      "color": "#22c55e",
+      "items": []
+    },
+    {
+      "id": "good-but-not-memorable",
+      "name": "Good, But Not Memorable",
+      "color": "#3b82f6",
+      "items": [
+        "The Lost Bus",
+        "Napoleon"
+      ]
+    },
+    {
+      "id": "really-not-for-me",
+      "name": "Really Not For Me",
+      "color": "#8b5cf6",
+      "items": [
+        "Come See Me in the Good Light"
+      ]
+    },
+    {
+      "id": "waste-of-time",
+      "name": "Waste Of Time",
+      "color": "#ef4444",
+      "items": []
+    }
+  ]
+}

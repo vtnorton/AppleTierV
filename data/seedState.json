@@ -1,0 +1,117 @@
+{
+  "series": [
+    {
+      "id": "absolute-cinema",
+      "name": "Absolute Cinema",
+      "color": "#d53030",
+      "itemIds": [
+        247767,
+        95396,
+        225171,
+        95480
+      ]
+    },
+    {
+      "id": "made-my-friend-watch",
+      "name": "Made My Friend Watch",
+      "color": "#f59e0b",
+      "itemIds": [
+        125988,
+        94951,
+        270476,
+        285404
+      ]
+    },
+    {
+      "id": "you-should-watch-it",
+      "name": "You Should Watch It",
+      "color": "#22c55e",
+      "itemIds": [
+        90282,
+        136311,
+        245318
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral",
+      "color": "#6b7280",
+      "itemIds": [
+        216412,
+        97546,
+        278624,
+        108181
+      ]
+    },
+    {
+      "id": "good-for-any-other-stream",
+      "name": "It's Good, For Any Other Stream",
+      "color": "#3b82f6",
+      "itemIds": [
+        98177
+      ]
+    },
+    {
+      "id": "cool-but-not-for-me",
+      "name": "Cool But Not For Me",
+      "color": "#8b5cf6",
+      "itemIds": [
+        114924
+      ]
+    },
+    {
+      "id": "why-i-watched-this",
+      "name": "Why I Watched This",
+      "color": "#ef4444",
+      "itemIds": []
+    }
+  ],
+  "movies": [
+    {
+      "id": "watch-on-the-theater",
+      "name": "Watch On The Theater",
+      "color": "#d53030",
+      "itemIds": [
+        911430,
+        466420
+      ]
+    },
+    {
+      "id": "thats-why-i-pay-apple-tv",
+      "name": "That's Why I Pay Apple TV",
+      "color": "#f59e0b",
+      "itemIds": [
+        1029575
+      ]
+    },
+    {
+      "id": "good-but-doesnt-look-apple-tv",
+      "name": "Good, But Doesn't Look Apple TV",
+      "color": "#22c55e",
+      "itemIds": []
+    },
+    {
+      "id": "good-but-not-memorable",
+      "name": "Good, But Not Memorable",
+      "color": "#3b82f6",
+      "itemIds": [
+        1236470,
+        753342
+      ]
+    },
+    {
+      "id": "really-not-for-me",
+      "name": "Really Not For Me",
+      "color": "#8b5cf6",
+      "itemIds": [
+        1400780
+      ]
+    },
+    {
+      "id": "waste-of-time",
+      "name": "Waste Of Time",
+      "color": "#ef4444",
+      "itemIds": []
+    }
+  ]
+}
